@@ -151,3 +151,62 @@ button.square:hover {
 .dark-theme .theme-btn:hover {
   background: rgba(255, 255, 255, 0.35);
 }
+
+/* ===== Responsive Design ===== */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .game-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .board {
+    width: 220px;
+    height: 220px;
+  }
+
+  .square {
+    font-size: 1.6rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .game-container {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 15px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .timer,
+  .status {
+    font-size: 1rem;
+  }
+
+  .board {
+    width: 180px;
+    height: 180px;
+  }
+
+  .square {
+    font-size: 1.4rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
