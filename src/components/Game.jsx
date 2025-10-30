@@ -120,7 +120,7 @@ const Game = () => {
             ? `🏆 Winner: ${winner}`
             : isDraw
             ? "🤝 Draw!"
-            : `Next Player: ${xIsNext ? "X (You)" : "O (Computer)"}`}
+            : `Next Player: ${xIsNext ? "X" : "O"}`}
         </h2>
 
         <div className="scoreboard">
